@@ -1,0 +1,34 @@
+#contenedor {
+    width: 80%;
+    height: 600px;
+    border: solid 1px grey;
+    margin: auto;
+    position: relative;
+}
+
+#contenedor div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.caja1 {
+    background-color: #005eff;
+    top: 100px;
+    left: 50px;
+    z-index: 3;
+}
+
+.caja2 {
+    background-color: #005e5e;
+    top: 150px;
+    left: 30px;
+    z-index: 1;
+}
+
+.caja3 {
+    background-color: #b800ff;
+    top: 130px;
+    left: 200px;
+    z-index: 2;
+}

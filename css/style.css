@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+
+nav {
+    background-color: #005eff;
+    padding: 6px 30px;
+    width: 100%;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+header img {
+    width: 100%;
+}
+
+footer {
+    background-color: #005eff;
+    padding: 8px 30px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #005eff;
+}
+
+.text-dark {
+    color: #626262;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.container {
+    background-color: #ffc800;
+    width: 90%;
+    height: auto;
+    overflow-y: auto;
+    margin: 20px auto;
+    padding: 20px 30px;
+    border: solid 1px #b5b3b3;
+}
+
+.box-top {
+    padding: 4px 0;
+    text-align: center;
+    color: gray;
+    font-size: 0.9em;
+}
+
+body {
+    background-image: url(../img/backgrounds/dark-blue.jpg);
+    background-size: cover;
+    color: white;
+}
+
+main {
+    background-image: url(../img/backgrounds/dark-blue.jpg);
+    background-size: cover;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    background-image: url(../img/backgrounds/dark-blue.jpg);
+    background-size: cover;
+    padding: 20px;
+    color: white; /* Puedes ajustar el color del texto para que sea visible en la imagen de fondo */
+}
